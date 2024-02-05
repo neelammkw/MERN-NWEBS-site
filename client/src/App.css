@@ -1,0 +1,160 @@
+/* Global styles */
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #2c1e1e;
+  font-weight: 600;
+}
+
+/* Section Registration styles */
+.section-registration {
+  /* background-color: #ffffff; */
+  /* White background */
+  border-radius: 10px;
+  width: 1300px;
+  /* width: 140px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+}
+
+.main-heading {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Form styles */
+.registration-form {
+  padding: 30px 20px;
+  width: 600px;
+  background-color: rgba(146, 127, 127, 0.144);
+  border-radius: 20px;
+  /* padding: 60px; */
+
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="phone"],
+.registration-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.registration-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #e77422;
+  /* Blue button */
+  border: none;
+  border-radius: 5px;
+  color: #232020;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form button[type="submit"]:hover {
+  background-color: #954226;
+  /* Darker blue on hover */
+}
+
+.section-services {
+  padding: 0px 0;
+  width: 1300px;
+}
+
+.container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  padding: 10px ;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  /* margin-bottom: 0px; */
+}
+
+.main-heading {
+  text-align: center;
+  /* margin-bottom: -100px; */
+  font-size: 2rem;
+}
+
+.grid-three-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #e3e2e2d1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card-img img {
+  align-items: center;
+  width: 250px;
+  height: auto;
+}
+
+.card-details {
+  padding: 10px;
+  width: 270px;
+
+}
+
+.grid-two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.card-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.card-details p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #2c1e1e;
+}
+
+@media (max-width: 768px) {
+  .grid-three-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Additional styles */
+.section-registration .registration-img {
+  text-align: center;
+}
+
+.section-registration .registration-img img {
+  border-radius: 10px 10px 0 0;
+}

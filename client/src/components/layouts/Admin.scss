@@ -1,0 +1,54 @@
+/* Container for the whole layout */
+.layout-container {
+  display: flex;
+  max-width: 30px;
+  margin-top: 10px;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: normal;
+
+
+}
+
+/* Styles for the navbar on the left side */
+.navbar {
+  width: 38vh;
+
+  background-color: #ebcb6b39;
+  color: #0e0c0c;
+
+  border-radius: 20px;
+  padding: 20px 35px;
+
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+/* Styles for the section content on the right side */
+.section {
+  width: 70vw;
+  flex: 1;
+  /* Take remaining space */
+  padding: 20px;
+  /* Section content padding */
+}
+
+/* Additional styles for links in the navbar */
+.navbar a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar ul li {
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  background-color: #f6b5b57c;
+  border-radius: 20px;
+  /* Hover background color */
+}
